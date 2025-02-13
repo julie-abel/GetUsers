@@ -1,4 +1,5 @@
 #Бот, который должен быть запущен во время получения данных из групп
+#добавляем этого бота в группу, из которой нужно получить данные
 import asyncio
 from telethon import TelegramClient, events
 from telethon.tl.types import ChannelParticipantsSearch
